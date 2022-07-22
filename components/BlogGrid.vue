@@ -1,4 +1,6 @@
 <template>
+
+
 	<div class="bg-white py-6 sm:py-8 lg:py-12 ">
 		<div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
 			<div class="mb-10 md:mb-16">
@@ -21,8 +23,8 @@
 			</div>  
 			<!-- Loading Posts -->
 			<div v-else class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 xl:gap-8">
-				<span v-for="post in data?.posts" :key="post.id">
-					<PostCard :title="post.title" :image="post.featured_image" :id="post.id" /> 
+				<span v-for="post in data?.items" :key="post.id">
+					<PostCard :post="post" />
 				</span>
 			</div>
 		</div>
@@ -30,5 +32,11 @@
 </template>
 
 <script setup>
- const { data, error } =await useAsyncData("posts", () => GqlPosts());
+
+
+  import {useNuxtApp} from "nuxt/app";
+  const {$client}=useNuxtApp()
+
+  const data =await $client.getEntries()
+  console.log(data)
 </script>

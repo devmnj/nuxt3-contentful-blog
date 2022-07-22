@@ -1,12 +1,19 @@
 import {createClient} from 'contentful'
 
+const config = {
+    space: 'w591jyzdi2py',
+    accessToken: 'DXG7DohnxRncpcxSPtLGr5fR4_fzjyzRzVZAiP9Ussk'
+};
+
 export default defineNuxtPlugin(() => {
     return {
         provide: {
-            ContentfulClient:   createClient({
-                space:'w591jyzdi2py',
-                accessToken:'DXG7DohnxRncpcxSPtLGr5fR4_fzjyzRzVZAiP9Ussk'
+            client :createClient({
+                space: 'w591jyzdi2py',
+                accessToken: 'DXG7DohnxRncpcxSPtLGr5fR4_fzjyzRzVZAiP9Ussk'
             })
+            }
         }
-    }
+
 })
+

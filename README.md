@@ -1,15 +1,16 @@
-<h3 align="center">Nuxt 3 App with Blog</h3>
+
+<h3 align="center">Contentful-Nuxt 3 Blog</h3>
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![Status](https://img.shields.io/badge/status-active-success.svg)]() 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
 ---
 
-<p align="center"> This is a Nuxt 3 App with a dynamic [blog] section which consumes a Graphql API. This app made possible with TailwindCSS and Daisy UI.
+<p align="center"> This is a blog using Vue 3 / Nuxt 3 , Contentful Headless CMS and TailwindCSS
     <br> 
 </p>
 
@@ -24,52 +25,48 @@
 
 ## 🧐 About <a name = "about"></a>
 
-The aim of the project is to setup a complete app with dynamic blog feature in `Nuxt 3`, the back end for this app can run on a GQL server. Building app with Nuxt 3 is fun 🚀
+This is a blog project using **Contentful CMS** and Nuxt 3.
+ 
 
-### 🔎 Graphql API <a name = "Graphql"></a>
-
-For the project I utilised the `mockend` app to create mock `REST/Graphql API`. With a simple JSON file (Github Repo) able to build the whole API required. I tested the Graphql with Apollo studio and it was cool.
-
+### 🔎  Contentful CMS <a name = "cms"></a>
+For the project I have used the Contentful CMS, to work with your own data need to register an account on contentful site and grab the credentials from Settings and configure it with **Contentful** module.
+ 
 ### 🧒 Prerequisites <a name = "Prerequisites"></a>
 
-You have to familiar with `Vue 3` Javascript frameworks and `HTML` and some `CSS`.
+You have to familiar with Javascript frameworks such as `Vue 3 and Nuxt 3` and `HTML`,`CSS` and ofcourse the `Javascript` inorder to work with this project.
 
 ## ⌚ Using the project
 
-Fork the repo and install dependencies, that's all you need. ⛏️.
-
+Fork the repo and install dependencies, that's all you need. ⛏️. 
 ### Install dependencies
-
 ```
 
 yarn install
 ```
-
 ### Running the project
 
 ```
 yarn dev
 ```
 
-will start the project.
+ 
+ will start the project.
+ 
 
-## 🚀 Built Using <a name = "built_using"></a>
+## 🚀  Built Using <a name = "built_using"></a>
 
-- [Vue 3](https://vuejs.org/) - Vue 3
-- [Nuxt 3](https://v3.nuxtjs.org/) - Nuxt3
-- [nuxt/gqlClient](https://github.com/diizzayy/nuxt-graphql-client) - Graphql Client
-- [Tailwindcss](https://tailwindcss.com/) - TailwindCSS
-- [Daisy UI](https://daisyui.com/) - Tailwind Component Library
-- [Mockend](https://mockend.com/) - Mockend
+- [Nuxt 3](https://v3.nuxtjs.org/) 
+- [Tailwindcss](https://tailwindcss.com/) 
+- [Contentful Headless CMS](https://contentful.com/)
+- [Vitejs](https://vitejs.dev/) - Build Tool
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a> and Guides
-
 - [@devmnj](https://github.com/devmnj) - Idea & Initial work
-- [JSU](http://javascriptsu.wordpress.com/tag/nuxt3) - More guides
+- [JSU](http://javascriptsu.wordpress.com/tag/solidjs) - More guides
 - [JSSDO](http://jssudo.blogpost.com)
 - [Imgur-for fun](https://imgur.com/user/devshots/posts)
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Thank for awesome TW CSS Components by Daisyui
+- Thank for awesome `Mamba` template

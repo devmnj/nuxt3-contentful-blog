@@ -5,8 +5,8 @@ export default defineNuxtConfig({
 
     runtimeConfig: {
         public: {
-            GQL_HOST: 'https://mockend.com/manoj-ap/mockbackend/graphql'
+
         }
     },
-    modules: ['@nuxtjs/tailwindcss', 'nuxt-graphql-client']
+    modules: ['@nuxtjs/tailwindcss' ]
 })
