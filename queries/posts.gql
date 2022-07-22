@@ -1,8 +1,0 @@
-query posts {
-  posts(limit: 4) {
-    id
-    title
-    featured_image
-    createdAt
-  }
-}
